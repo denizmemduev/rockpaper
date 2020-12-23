@@ -1,0 +1,138 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: burlywood;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main {
+  width: 100%;
+  height: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#p1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  float: left;
+}
+#p2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  float: right;
+  margin-top: 55px;
+}
+.div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  width: 40%;
+  height: 700px;
+  float: left;
+  background-color: rgb(231, 196, 150);
+  box-shadow: 0px 10px 10px 10px rgba(128, 128, 128, 0.144);
+}
+.div2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 40%;
+  height: 700px;
+  float: left;
+  background-color: rgb(231, 196, 150);
+  box-shadow: 0px 10px 10px 10px rgba(128, 128, 128, 0.144);
+}
+.kucuk {
+  width: 75px;
+  height: 75px;
+  border: 3px solid brown;
+  background-color: brown;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.kucukdiv {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.kucuk:hover {
+  transform: scale(1.06);
+}
+
+img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  transition: 0.5s;
+}
+.ip1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  float: left;
+}
+.ip2 {
+  display: none;
+  /* margin-bottom: 130px; */
+}
+.goster {
+  display: flex !important;
+}
+.gosterme {
+  display: none !important;
+}
+.skordiv {
+  width: 90%;
+  height: 80px;
+  background-color: coral;
+}
+.ben {
+  height: 80px;
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  float: left;
+}
+.sen {
+  height: 80px;
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  float: right;
+}
+div h2 {
+  color: white;
+  text-align: center;
+}
+div p {
+  text-align: center;
+  color: white;
+}
