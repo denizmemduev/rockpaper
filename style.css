@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: burlywood;
+  background-color: rgb(49, 49, 49);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,7 +33,7 @@ main {
   flex-wrap: wrap;
   width: 80%;
   float: right;
-  margin-top: 55px;
+  margin-top: 84px;
 }
 .div {
   display: flex;
@@ -45,8 +45,9 @@ main {
   width: 40%;
   height: 700px;
   float: left;
-  background-color: rgb(231, 196, 150);
-  box-shadow: 0px 10px 10px 10px rgba(128, 128, 128, 0.144);
+  background-color: rgb(255, 182, 24);
+  border-radius:0px 0px 0px 50px;
+
 }
 .div2 {
   display: flex;
@@ -57,16 +58,22 @@ main {
   width: 40%;
   height: 700px;
   float: left;
-  background-color: rgb(231, 196, 150);
-  box-shadow: 0px 10px 10px 10px rgba(128, 128, 128, 0.144);
+  background-color: rgb(255, 178, 13);
+  border-left: solid 2px black;
+  border-radius:0px 0px 50px 0px;
+  
+ 
 }
 .kucuk {
   width: 75px;
   height: 75px;
-  border: 3px solid brown;
-  background-color: brown;
+  background-color: rgba(165, 42, 42, 0.842);
+
   border-radius: 10px;
   transition: 0.5s;
+}
+.kucuk:hover {
+  transform: scale(1.06);
 }
 .kucukdiv {
   width: 100%;
@@ -76,9 +83,7 @@ main {
   flex-wrap: wrap;
   flex-direction: row;
 }
-.kucuk:hover {
-  transform: scale(1.06);
-}
+
 
 img {
   display: flex;
@@ -108,11 +113,13 @@ img {
 .skordiv {
   width: 90%;
   height: 80px;
-  background-color: coral;
+  background-color: rgba(182, 3, 3, 0.801);
+  border-radius:0px 0px 50px 50px;
+  overflow: hidden;
 }
 .ben {
   height: 80px;
-  width: 10%;
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -121,12 +128,15 @@ img {
 }
 .sen {
   height: 80px;
-  width: 10%;
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   float: right;
+  background-color: rgba(129, 2, 2, 0.801);
+
+
 }
 div h2 {
   color: white;
